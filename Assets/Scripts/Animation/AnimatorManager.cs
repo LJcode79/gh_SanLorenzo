@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class AnimatorManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	Animator animator;
+	int horizontal;
+	int vertical;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	private void Awake()
+	{
+		animator = GetComponent<Animator>();
+		horizontal = Animator.StringToHash("Horizontal");
+		vertical = Animator.StringToHash("Vertical");
+	}
+	public void UpdateAnimatorValues(float horizontalMovement, float verticalMovement)
+	{
+		animator.SetFloat(horizontal, horizontalMovement, 0.1f, Time.deltaTime);
+		animator.SetFloat(vertical, verticalMovement, 0.1f, Time.deltaTime);
+	}
 }

@@ -7535,6 +7535,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27440abccb6734e4bb7fa589a3ad8ab9,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1293891319}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27440abccb6734e4bb7fa589a3ad8ab9,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1293891317}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 27440abccb6734e4bb7fa589a3ad8ab9,
         type: 3}
@@ -7657,3 +7661,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &1293891319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293891310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 921984ede6cc24743bb1437fa8d381a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
