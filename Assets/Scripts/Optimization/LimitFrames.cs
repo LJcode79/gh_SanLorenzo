@@ -5,6 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class LimitFrames : MonoBehaviour
 {
+    //test
     [SerializeField]
     private int frameRateCap;
     // Update is called once per frame

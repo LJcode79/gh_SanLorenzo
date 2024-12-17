@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Kaya and Shooting.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Old Input TPC.unity
+    guid: 23bc0c4689ecfd347a759683cb9ce0b7
   m_configObjects: {}
