@@ -412,7 +412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTransform: {fileID: 0}
   cameraFollowVelocity: {x: 0, y: 0, z: 0}
-  cameraFollowSpeed: 0.2
+  cameraFollowSpeed: 0
 --- !u!1 &1025836992
 GameObject:
   m_ObjectHideFlags: 0
