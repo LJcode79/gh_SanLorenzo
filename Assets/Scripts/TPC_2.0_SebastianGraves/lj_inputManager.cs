@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lj_inputManager : MonoBehaviour
+public class lj_InputManager : MonoBehaviour
 {
 	PlayerControls playerControls;
 	AnimatorManager animatorManager;

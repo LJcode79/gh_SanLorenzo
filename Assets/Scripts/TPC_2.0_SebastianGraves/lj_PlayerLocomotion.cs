@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class lj_PlayerLocomotion : MonoBehaviour
 {
-	lj_inputManager inputManager;
+	lj_InputManager inputManager;
 	Vector3 moveDirection;
 	Transform cameraObject;
 	Rigidbody playerRigidbody;
@@ -13,7 +13,7 @@ public class lj_PlayerLocomotion : MonoBehaviour
 	public float rotationSpeed = 15;
 	private void Awake()
 	{
-		inputManager = GetComponent<lj_inputManager>();
+		inputManager = GetComponent<lj_InputManager>();
 		playerRigidbody = GetComponent<Rigidbody>();
 		cameraObject = Camera.main.transform;
 
