@@ -22,6 +22,7 @@ public class lj_CameraManager : MonoBehaviour
 
     public void RotateCamera()
     {
-
+        //lookAngle = lookAngle + (joyStickXInput * cameraLookSpeed);
+        //pivotAngle = pivotAngle - (mouseYInput - cameraPivotSpeed);
     }
 }
